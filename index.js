@@ -3,7 +3,7 @@ const app = express()
 const port = 5550
 const mongoose = require("mongoose")
 require('ejs')
-
+        
 app.set('view engine', 'ejs')
 
 app.use(express.urlencoded({extended: true}))
